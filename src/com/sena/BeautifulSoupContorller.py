@@ -13,7 +13,7 @@ def callbackfunc(blocknum, blocksize, totalsize):
 
 
 if __name__ == "__main__":
-    for i in range(11, 111):
+    for i in range(1, 111):
         url = 'https://mail.qq.com/cgi-bin/getverifyimage'
         local = 'd:\\total\\logo' + str(i) + '.jpg'
         urlretrieve(url, local, callbackfunc)
